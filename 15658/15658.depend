@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1581490805 source:c:\users\hyj2508\desktop\acmicpc\2020 winter vac\15658\main.cpp
+	<iostream>
+	<vector>
+	<algorithm>
+
