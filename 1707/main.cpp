@@ -6,23 +6,17 @@ using namespace std;
 int ans;
 
 int dfs(int start, int visited[], vector<int> v[], int color[]) {
-//    cout<<start<<'\n';
     visited[start] = 1;
     vector<int> tmp = v[start];
     for(int i=0;i<tmp.size();i++) {
-//        cout<<tmp[i]<<'\n';
-//        cout<<visited[tmp[i]]<<'\n';
         if(visited[tmp[i]]==0) {
-//            cout<<"ireiriere"<<'\n';
             visited[tmp[i]]=1;
             color[tmp[i]]=!color[start];
-//            cout<<tmp[i]<<" "<<color[tmp[i]]<<'\n';
             dfs(tmp[i], visited, v, color);
         }
     }
     for(int i=1;i<tmp.size();i++) {
         if(color[tmp[i]]!=color[tmp[i-1]]) {
-//            cout<<"hoooo "<<tmp[i]<<" "<<tmp[i-1]<<'\n';
             ans=0;
         }
         if(ans==0) break;
@@ -55,12 +49,6 @@ int main()
         if(ans==0) cout<<"NO"<<'\n';
         else cout<<"YES"<<'\n';
 
-//        cout<<"ans: "<<dfs(1, visited, v, color)<<'\n';
-//        for(int j=1;j<=tmp1;j++) {
-//            cout<<j<<" "<<color[j]<<'\n';
-//        }
-//        cout<<"======================"<<'\n';
-    }
-//    cout << "Hello world!" << endl;
+
     return 0;
 }
