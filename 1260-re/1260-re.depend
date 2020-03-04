@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1583299030 source:c:\users\yujinhong\desktop\algorithm_study\1260-re\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<algorithm>
+	<cstring>
+
