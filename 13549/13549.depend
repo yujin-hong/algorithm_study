@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1583395205 source:c:\users\yujinhong\desktop\algorithm_study\13549\main.cpp
+	<iostream>
+	<queue>
+	<algorithm>
+
