@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585206446 source:c:\users\dbwls\desktop\algorithm_study\17136\main.cpp
+	<iostream>
+	<cstring>
+	<climits>
+
