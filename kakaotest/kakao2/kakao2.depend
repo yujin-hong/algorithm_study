@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585380595 source:c:\users\dbwls\desktop\algorithm_study\kakaotest\kakao2\main.cpp
+	<string>
+	<vector>
+	<iostream>
+

@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1585471698 source:c:\users\dbwls\desktop\algorithm_study\2018-kakao-codefestival\15955-re\main.cpp
+	<iostream>
+	<algorithm>
+	<vector>
+	<tuple>
+

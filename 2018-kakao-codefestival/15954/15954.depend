@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1585462430 source:c:\users\dbwls\desktop\algorithm_study\2018-kakao-codefestival\15954\main.cpp
+	<iostream>
+	<vector>
+	<math.h>
+
