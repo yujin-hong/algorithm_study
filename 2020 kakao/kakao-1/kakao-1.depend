@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1585831925 source:c:\users\dbwls\desktop\algorithm_study\2020 kakao\kakao-1\main.cpp
+	<string>
+	<vector>
+	<iostream>
+	<climits>
+
