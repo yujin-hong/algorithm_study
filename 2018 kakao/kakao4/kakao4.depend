@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1586002659 source:c:\users\dbwls\desktop\algorithm_study\2018 kakao\kakao4\main.cpp
+	<string>
+	<vector>
+	<set>
+	<iostream>
+
