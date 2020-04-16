@@ -75,7 +75,6 @@ int main()
                 } else if(visited[ttbx][ttby]==-2) {
                     continue;
                 } else {
-//                    cout<<"go to queue"<<'\n';
                     if(check[ttrx-(rfl+1)*dx[j]][ttry-(rfl+1)*dy[j]][ttbx-(bfl+1)*dx[j]][ttby-(bfl+1)*dy[j]]==0) {
                         bq.push(make_pair(ttbx-(bfl+1)*dx[j], ttby-(bfl+1)*dy[j]));
                         rq.push(make_pair(ttrx-(rfl+1)*dx[j], ttry-(rfl+1)*dy[j]));
