@@ -36,16 +36,15 @@ int main()
     int num=1;
     int ans=0;
     while(!rq.empty() && !bq.empty()) {
-//        if(num>10) {ans=-1; break;}
+        if(num>10) {ans=-1; break;}
+//        cout<<"===================="<<'\n';
         int rqsize = rq.size();
-        cout<<"==================== "<<rqsize<<'\n';
-
         for(int i=0;i<rqsize;i++) {
             int rx = rq.front().first;
             int ry = rq.front().second;
             int bx = bq.front().first;
             int by = bq.front().second;
-            cout<<rx<<" "<<ry<<" "<<bx<<" "<<by<<'\n';
+//            cout<<rx<<" "<<ry<<" "<<bx<<" "<<by<<'\n';
             rq.pop();
             bq.pop();
             for(int j=0;j<4;j++) {
@@ -67,7 +66,6 @@ int main()
                     if(bx==ttrx && by==ttry) rfl=1;
                     if(visited[ttrx][ttry]!=0) break;
                 }
-                cout<<"tt"<<ttrx<<" "<<ttry<<" "<<ttbx<<" "<<ttby<<'\n';
 
                 if(visited[ttrx][ttry]==-2) {
                     if(visited[ttrx][ttry]==visited[ttbx][ttby]) continue;
@@ -81,7 +79,6 @@ int main()
                         check[ttrx-(rfl+1)*dx[j]][ttry-(rfl+1)*dy[j]][ttbx-(bfl+1)*dx[j]][ttby-(bfl+1)*dy[j]]=1;
                     }
                 }
-                cout<<rq.size()<<'\n';
 
 //                    if(visited[tx][ty]==-2) {
 ////                            cout<<"hohohoho"<<'\n';
