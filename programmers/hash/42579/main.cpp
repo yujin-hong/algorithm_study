@@ -42,9 +42,9 @@ vector<int> solution(vector<string> genres, vector<int> plays) {
     sort(v.begin(), v.end(), greater<pair<int, string>>());
     for(int i=0;i<v.size();i++) {
         answer.push_back(tm[v[i].second][0].second);
-        try {
+        if(tm[v[i].second].size()>1) {
             answer.push_back(tm[v[i].second][1].second);
-        } catch(const e) {}
+        }
     }
     return answer;
 }
