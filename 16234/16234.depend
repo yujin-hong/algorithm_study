@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1587606007 source:c:\users\dbwls\desktop\algorithm_study\16234\main.cpp
+	<iostream>
+	<math.h>
+	<queue>
+
