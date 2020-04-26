@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1586581365 source:c:\users\dbwls\desktop\algorithm_study\naver hackday\3\main.cpp
+	<string>
+	<vector>
+	<iostream>
+
