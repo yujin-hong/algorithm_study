@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1589005079 source:c:\users\yujinhong\desktop\algorithm_study\2020kakaointern\2\main.cpp
+	<string>
+	<vector>
+	<iostream>
+	<queue>
+	<algorithm>
+

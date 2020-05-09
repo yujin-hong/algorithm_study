@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1589008361 source:c:\users\yujinhong\desktop\algorithm_study\2020kakaointern\3\main.cpp
+	<string>
+	<vector>
+	<iostream>
+	<set>
+
