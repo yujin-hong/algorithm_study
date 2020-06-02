@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1587882497 source:c:\users\yujinhong\desktop\algorithm_study\sm2\2\main.cpp
+	<iostream>
+	<vector>
+	<queue>
+	<climits>
+	<algorithm>
+
