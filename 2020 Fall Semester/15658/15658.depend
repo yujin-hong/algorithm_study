@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1599750601 source:c:\users\hyj2508\desktop\algorithm_study\2020 fall semester\15658\main.cpp
+	<iostream>
+	<vector>
+	<climits>
+
